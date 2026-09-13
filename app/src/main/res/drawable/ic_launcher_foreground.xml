@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Stylized camera / aperture / AI frame within safe zone 66dp (centered at 54, 54; min 21, max 87) -->
+    <!-- Outer Rounded Square with Gradient Border -->
+    <path
+        android:pathData="M37,28 L71,28 A9,9 0 0,1 80,37 L80,71 A9,9 0 0,1 71,80 L37,80 A9,9 0 0,1 28,71 L28,37 A9,9 0 0,1 37,28 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#38BDF8"
+        android:fillColor="#151E33" />
+
+    <!-- Aperture / Lens core -->
+    <path
+        android:pathData="M54,54m-16,0a16,16 0 1,1 32,0a16,16 0 1,1 -32,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="38"
+                android:startY="38"
+                android:endX="70"
+                android:endY="70">
+                <item android:offset="0.0" android:color="#818CF8" />
+                <item android:offset="1.0" android:color="#C084FC" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Center Iris sparkle -->
+    <path
+        android:pathData="M54,43 L56.5,51.5 L65,54 L56.5,56.5 L54,65 L51.5,56.5 L43,54 L51.5,51.5 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Top-right magical AI star -->
+    <path
+        android:pathData="M73,31 L74.2,34.8 L78,36 L74.2,37.2 L73,41 L71.8,37.2 L68,36 L71.8,34.8 Z"
+        android:fillColor="#38BDF8" />
+
+    <!-- Bottom-left subtle accent star -->
+    <path
+        android:pathData="M35,69 L35.8,71.2 L38,72 L35.8,72.8 L35,75 L34.2,72.8 L32,72 L34.2,71.2 Z"
+        android:fillColor="#A78BFA" />
+
+    <!-- Lens reflections / arcs -->
+    <path
+        android:pathData="M43,40 C46.5,37 51,35.5 56,36"
+        android:strokeWidth="1.8"
+        android:strokeColor="#E0E7FF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+</vector>

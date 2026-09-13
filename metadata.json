@@ -1,0 +1,6 @@
+{
+  "name": "Seyon AI",
+  "description": "AI image generation and image-to-image editing app that preserves facial identity and appearance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
